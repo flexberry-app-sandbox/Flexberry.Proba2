@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Здания",
+  "name": "IISProba2ЗданияE",
+  "className": "ЗданияE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba2-здания",
+      "modelProjection": "ЗданияE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proba2-здания-e",
+  "editForm": "i-i-s-proba2-здания-e",
+  "external": false,
+  "caption": "Здания",
+  "name": "IISProba2ЗданияL",
+  "className": "ЗданияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba2-здания",
+      "modelProjection": "ЗданияL"
+    }
+  ]
+}
