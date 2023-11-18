@@ -42,6 +42,8 @@ namespace IIS.Proba2
         
         private string fНаименование;
         
+        private int fПодъезд;
+        
         private IIS.Proba2.Здания fЗдания;
         
         // *** Start programmer edit section *** (Города CustomMembers)
@@ -78,6 +80,37 @@ namespace IIS.Proba2
                 // *** Start programmer edit section *** (Города.Наименование Set end)
 
                 // *** End programmer edit section *** (Города.Наименование Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Подъезд.
+        /// </summary>
+        // *** Start programmer edit section *** (Города.Подъезд CustomAttributes)
+
+        // *** End programmer edit section *** (Города.Подъезд CustomAttributes)
+        public virtual int Подъезд
+        {
+            get
+            {
+                // *** Start programmer edit section *** (Города.Подъезд Get start)
+
+                // *** End programmer edit section *** (Города.Подъезд Get start)
+                int result = this.fПодъезд;
+                // *** Start programmer edit section *** (Города.Подъезд Get end)
+
+                // *** End programmer edit section *** (Города.Подъезд Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (Города.Подъезд Set start)
+
+                // *** End programmer edit section *** (Города.Подъезд Set start)
+                this.fПодъезд = value;
+                // *** Start programmer edit section *** (Города.Подъезд Set end)
+
+                // *** End programmer edit section *** (Города.Подъезд Set end)
             }
         }
         

@@ -12,14 +12,14 @@
           "link": "i-i-s-proba2-города-l",
           "menuName": null,
           "caption": "Города",
-          "title": "",
+          "title": "Города",
           "children": null
         },
         {
           "link": "i-i-s-proba2-здания-l",
           "menuName": null,
           "caption": "Здания",
-          "title": "",
+          "title": "Здания",
           "children": null
         }
       ]

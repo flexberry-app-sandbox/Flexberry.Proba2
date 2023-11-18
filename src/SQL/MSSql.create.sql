@@ -8,6 +8,8 @@ CREATE TABLE [Города] (
 
 	 [Наименование] VARCHAR(255)  NULL,
 
+	 [Подъезд] INT  NULL,
+
 	 [Здания] UNIQUEIDENTIFIER  NOT NULL,
 
 	 PRIMARY KEY ([primaryKey]))

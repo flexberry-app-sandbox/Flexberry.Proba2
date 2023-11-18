@@ -6,6 +6,7 @@
 CREATE TABLE Города (
  primaryKey UUID NOT NULL,
  Наименование VARCHAR(255) NULL,
+ Подъезд INT NULL,
  Здания UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 

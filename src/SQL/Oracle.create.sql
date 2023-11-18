@@ -9,6 +9,8 @@ CREATE TABLE "Города"
 
 	"Наименование" NVARCHAR2(255) NULL,
 
+	"Подъезд" NUMBER(10) NULL,
+
 	"Здания" RAW(16) NOT NULL,
 
 	 PRIMARY KEY ("primaryKey")
