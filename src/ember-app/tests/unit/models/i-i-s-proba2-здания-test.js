@@ -4,6 +4,7 @@ moduleForModel('i-i-s-proba2-здания', 'Unit | Model | i-i-s-proba2-зда�
   // Specify the other units that are required for this test.
   needs: [
     'model:i-i-s-proba2-города',
+    'model:i-i-s-proba2-дом',
     'model:i-i-s-proba2-здания',
     'validator:ds-error',
     'validator:presence',

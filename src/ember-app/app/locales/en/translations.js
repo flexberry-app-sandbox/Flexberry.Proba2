@@ -6,6 +6,7 @@ import IISProba2ЗданияLForm from './forms/i-i-s-proba2-здания-l';
 import IISProba2ГородаEForm from './forms/i-i-s-proba2-города-e';
 import IISProba2ЗданияEForm from './forms/i-i-s-proba2-здания-e';
 import IISProba2ГородаModel from './models/i-i-s-proba2-города';
+import IISProba2ДомModel from './models/i-i-s-proba2-дом';
 import IISProba2ЗданияModel from './models/i-i-s-proba2-здания';
 
 const translations = {};
@@ -14,10 +15,11 @@ $.extend(true, translations, EmberFlexberryTranslations);
 $.extend(true, translations, {
   models: {
     'i-i-s-proba2-города': IISProba2ГородаModel,
+    'i-i-s-proba2-дом': IISProba2ДомModel,
     'i-i-s-proba2-здания': IISProba2ЗданияModel
   },
 
-  'application-name': 'Proba2',
+  'application-name': '',
 
   forms: {
     loading: {
@@ -56,7 +58,7 @@ $.extend(true, translations, {
       },
 
       footer: {
-        'application-name': 'Proba2',
+        'application-name': '',
         'application-version': {
           caption: 'Addon version {{version}}',
           title: 'It is version of ember-flexberry addon, which uses in this dummy application ' +
@@ -67,8 +69,8 @@ $.extend(true, translations, {
 
       sitemap: {
         'application-name': {
-          caption: 'Proba2',
-          title: 'Proba2'
+          caption: '',
+          title: ''
         },
         'application-version': {
           caption: 'Addon version {{version}}',

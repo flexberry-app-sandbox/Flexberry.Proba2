@@ -2,24 +2,11 @@
 
 
 
-CREATE TABLE [Города] (
+CREATE TABLE [Дом] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
 	 [Наименование] VARCHAR(255)  NULL,
-
-	 [Подъезд] INT  NULL,
-
-	 [Здания] UNIQUEIDENTIFIER  NOT NULL,
-
-	 PRIMARY KEY ([primaryKey]))
-
-
-CREATE TABLE [Здания] (
-
-	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
-
-	 [Номер] INT  NULL,
 
 	 PRIMARY KEY ([primaryKey]))
 

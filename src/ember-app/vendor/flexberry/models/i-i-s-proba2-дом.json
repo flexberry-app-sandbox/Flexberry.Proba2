@@ -1,0 +1,25 @@
+﻿{
+  "name": "IISProba2Дом",
+  "modelName": "i-i-s-proba2-дом",
+  "className": "Дом",
+  "nameSpace": "IIS.Proba2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

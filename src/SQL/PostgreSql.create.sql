@@ -3,17 +3,9 @@
 
 
 
-CREATE TABLE Города (
+CREATE TABLE Дом (
  primaryKey UUID NOT NULL,
  Наименование VARCHAR(255) NULL,
- Подъезд INT NULL,
- Здания UUID NOT NULL,
- PRIMARY KEY (primaryKey));
-
-
-CREATE TABLE Здания (
- primaryKey UUID NOT NULL,
- Номер INT NULL,
  PRIMARY KEY (primaryKey));
 
 
@@ -120,9 +112,6 @@ CREATE TABLE ApplicationLog (
  PRIMARY KEY (primaryKey));
 
 
-
- ALTER TABLE Города ADD CONSTRAINT FK2b8fb2d4dabdee526f75149cd7d9ea73614f6859 FOREIGN KEY (Здания) REFERENCES Здания; 
-CREATE INDEX Index2b8fb2d4dabdee526f75149cd7d9ea73614f6859 on Города (Здания); 
 
  ALTER TABLE STORMWEBSEARCH ADD CONSTRAINT FKc4378e39870eb056aec84088683297a01d2a6200 FOREIGN KEY (FilterSetting_m0) REFERENCES STORMFILTERSETTING; 
 
